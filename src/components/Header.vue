@@ -63,10 +63,15 @@ const links = [
     url: "https://www.linkedin.com/in/yann-guineau/",
     icon: "fa-brands fa-linkedin",
   },
+  // {
+  //   name: "Meeting",
+  //   url: "https://calendly.com/yann-guineau/30min",
+  //   icon: "fa-solid fa-calendar-days",
+  // },
   {
-    name: "Meeting",
-    url: "https://calendly.com/yann-guineau/30min",
-    icon: "fa-solid fa-calendar-days",
+    name: "Resume",
+    url: "https://www.dropbox.com/s/qyyjbiiq897cuf3/Yann_Guineau_-_Sr._Blockchain_Developer.pdf?dl=0",
+    icon: "fa-solid fa-file-user",
   },
 ];
 </script>
