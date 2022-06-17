@@ -22,11 +22,11 @@
           </a>
         </swiper-slide>
       </swiper>
-      <div class="mt-5 flex items-center justify-between px-5">
-        <div class="swiper-button-prev cursor-pointer rounded-full border-2 border-zinc-500 p-2 text-zinc-500">
+      <div class="mt-5 flex items-center justify-center gap-x-10 px-5">
+        <div class="swiper-button-prev flex cursor-pointer justify-items-center rounded-full border-2 border-zinc-400 p-3 text-zinc-400 dark:border-zinc-600 dark:text-zinc-600">
           <i class="fa-solid fa-chevron-left h-5 w-5 self-center"></i>
         </div>
-        <div class="swiper-button-next cursor-pointer rounded-full border-2 border-zinc-500 p-2 text-zinc-500">
+        <div class="swiper-button-next flex cursor-pointer justify-items-center rounded-full border-2 border-zinc-400 p-3 text-zinc-400 dark:border-zinc-600 dark:text-zinc-600">
           <i class="fa-solid fa-chevron-right h-5 w-5 self-center"></i>
         </div>
       </div>
@@ -36,7 +36,7 @@
 
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { Navigation } from "swiper";
+import { Navigation, FreeMode } from "swiper";
 import "swiper/css";
 
 import AirbusLogo from "@/assets/images/companies/airbus.png";
@@ -46,7 +46,7 @@ import AtosBullLogo from "@/assets/images/companies/atos-bull.png";
 import DigitalVirogoLogo from "@/assets/images/companies/digital-virgo.png";
 import ChainSafeLogo from "@/assets/images/companies/chainsafe.png";
 
-const modules = [Navigation];
+const modules = [Navigation, FreeMode];
 
 const companies = [
   {
