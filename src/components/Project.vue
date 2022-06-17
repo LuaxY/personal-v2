@@ -1,6 +1,6 @@
 <template>
   <div class="project group relative z-10 h-56 w-full cursor-pointer self-center rounded-lg shadow-md md:h-80" :class="class">
-    <h4 class="absolute inset-0 flex h-full w-full items-center justify-center text-2xl transition-opacity duration-200 group-hover:opacity-0 md:text-3xl">{{ name }}</h4>
+    <h4 class="absolute inset-0 flex h-full w-full items-center justify-center text-2xl font-medium transition-opacity duration-200 group-hover:opacity-0 md:text-3xl">{{ name }}</h4>
     <p class="absolute inset-0 flex h-full w-full items-center justify-center p-10 text-justify text-sm opacity-0 transition-opacity duration-200 group-hover:opacity-100 md:text-base">{{ description }}</p>
   </div>
 </template>

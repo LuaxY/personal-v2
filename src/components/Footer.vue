@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto grid max-w-6xl grid-cols-1 justify-between gap-y-10 py-10 md:grid-cols-2 md:pt-16">
     <div class="flex flex-col items-center justify-center gap-y-5 md:items-start">
-      <div class="text-2xl text-emerald-600 dark:text-yellow-500">Get a project?<br />Let's talk.</div>
+      <div class="text-2xl font-medium text-emerald-600 dark:text-yellow-500">Get a project?<br />Let's talk.</div>
       <div class="text-sm text-emerald-300 dark:text-slate-400">If you are interested in colaborating with me,<br />please don't hesitate to send me an email.</div>
       <a href="mailto:hello@voidmx.net" class="flex items-center gap-x-2"><i class="fa-solid fa-envelope"></i> hello@voidmx.net</a>
     </div>
