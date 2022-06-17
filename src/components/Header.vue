@@ -25,7 +25,7 @@
     </div>
     <transition enter-active-class="duration-200 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
       <PopoverPanel focus class="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
-        <div class="divide-y-2 divide-gray-50 rounded-lg border-2 border-emerald-500 bg-emerald-1000 shadow-lg ring-1 ring-black ring-opacity-5 dark:border-yellow-500 dark:bg-zinc-900">
+        <div class="divide-y-2 divide-gray-50 rounded-lg border-2 border-emerald-500 bg-emerald-1100 shadow-lg ring-1 ring-black ring-opacity-5 dark:border-yellow-500 dark:bg-zinc-900">
           <div class="px-5 pt-5 pb-6">
             <div class="flex items-center justify-between">
               <div>
