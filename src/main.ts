@@ -1,7 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
-import "cal-sans";
 import "./assets/css/base.css";
 
 const app = createApp(App);
